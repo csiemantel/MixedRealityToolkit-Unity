@@ -1,7 +1,18 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Magic Leap",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.magicleap"
+      ]
+    }
+  ],
   "dependencies": {
     "com.atteneder.gltfast": "https://github.com/atteneder/glTFast.git#v4.8.3",
     "com.atteneder.ktx": "https://github.com/atteneder/KtxUnity.git#v2.1.2",
+    "com.magicleap.mrtk3": "file:C:/Users/csiem/MagicLeap/tools/unity/mrtk3/v1.4.0/com.magicleap.mrtk3-1.4.0.tgz",
+    "com.magicleap.unitysdk": "2.6.0",
     "com.microsoft.mixedreality.openxr": "file:../../../ExternalDependencies/com.microsoft.mixedreality.openxr-1.10.0.tgz",
     "com.microsoft.mixedreality.visualprofiler": "https://github.com/microsoft/VisualProfiler-Unity.git#v2.2.0",
     "com.microsoft.mrtk.graphicstools.unity": "https://github.com/microsoft/MixedReality-GraphicsTools-Unity.git?path=/com.microsoft.mrtk.graphicstools.unity#v0.6.6",
@@ -68,20 +79,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  },
-  "testables": [
-    "com.unity.inputsystem",
-    "org.mixedrealitytoolkit.accessibility",
-    "org.mixedrealitytoolkit.core",
-    "org.mixedrealitytoolkit.data",
-    "org.mixedrealitytoolkit.diagnostics",
-    "org.mixedrealitytoolkit.extendedassets",
-    "org.mixedrealitytoolkit.input",
-    "org.mixedrealitytoolkit.spatialmanipulation",
-    "org.mixedrealitytoolkit.standardassets",
-    "org.mixedrealitytoolkit.uxcomponents",
-    "org.mixedrealitytoolkit.uxcomponents.noncanvas",
-    "org.mixedrealitytoolkit.uxcore",
-    "org.mixedrealitytoolkit.windowsspeech"
-  ]
+  }
 }
